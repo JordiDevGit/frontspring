@@ -5,7 +5,7 @@ import Baja from './routes/baja';
 import Consulta from './routes/consulta';
 
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename='/frontspring'>
         <Routes>   
             <Route index element={<Home/>} />
             <Route path="/alta" element={<Alta/>} />
