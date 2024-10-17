@@ -2,6 +2,12 @@ ul {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
 .header {
     display: flex;
     background-color: #d9dad8;
@@ -16,6 +22,6 @@ ul {
     justify-content: space-between;
 }
 
-li:hover {
+.link:hover {
     background-color: bisque;
 }
