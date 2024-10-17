@@ -1,0 +1,1 @@
+ul{list-style:none}.link{text-decoration:none;border:1px solid black;border-radius:30px;padding:2px 4px}.header{display:flex;background-color:#d9dad8;height:25px;align-items:center;border:1px solid black;border-radius:30px;padding:5px}.navbar{display:flex;gap:20px;justify-content:space-between}.link:hover{background-color:#fff}

@@ -6,6 +6,7 @@ ul {
     text-decoration: none;
     border: 1px solid black;
     border-radius: 30px;
+    padding: 2px 4px;
 }
 
 .header {
@@ -15,6 +16,7 @@ ul {
     align-items: center;
     border: 1px solid black;
     border-radius: 30px;
+    padding: 5px;
 }
 .navbar {
     display: flex;
@@ -23,5 +25,5 @@ ul {
 }
 
 .link:hover {
-    background-color: bisque;
+    background-color: white;
 }
