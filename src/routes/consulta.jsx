@@ -21,13 +21,33 @@ useEffect(() => {
         </ul>
       </div>  
       <div>
-        <ul>
-          {personas?.map((persona) => {
-            return (
-            <li key={persona.id}>{persona.id} - {persona.name}</li>
-            )
-          })}
-        </ul>
+        <table>
+          <caption>
+            Estas son las personas existentes en la base de datos
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Apellidos</th>
+              <th scope="col">DNI</th>
+              <th scope="col">Fecha nacimiento</th>
+            </tr>
+            <tbody>
+              {personas?.map((persona) => {
+                return (
+                  <tr key={persona.id}>
+                    <th>{persona.id}</th>
+                    <td>{persona.name}</td>
+                    <td>{persona.surnames}</td>
+                    <td>{persona.dni}</td>
+                    <td>{persona.birthdate}</td>
+                  </tr>
+                )
+              })}
+            </tbody>
+          </thead>
+        </table>
       </div>
     </div>
   )   
